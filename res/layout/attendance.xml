@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/aa1"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark Your Attandance"
+        android:id="@+id/tx1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        
+        android:paddingTop="50dp"
+        android:textColor="#000"
+        android:paddingBottom="50dp" />
+
+    <Spinner
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/courses"
+        android:entries="@array/courses"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:paddingTop="20dp"
+        
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:prompt="@string/Course_Name"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dates"
+        android:entries="@array/dates"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:prompt="@string/Date"
+        android:spinnerMode="dropdown" />
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <Spinner
+                android:layout_width="128dp"
+                android:layout_height="match_parent"
+                android:id="@+id/alpha"
+                android:entries="@array/alpha"
+                android:paddingLeft="52dp"
+                android:spinnerMode="dropdown"
+                android:layout_weight="0.49" />
+
+            <Spinner
+                android:layout_width="119dp"
+                android:layout_height="match_parent"
+                android:entries="@array/numbers"
+                android:id="@+id/numbers"
+                android:spinnerMode="dropdown"
+                android:paddingLeft="20dp"
+                android:layout_weight="0.41" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:text="Mark It!"
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.30"
+        android:clickable="true" />
+
+</LinearLayout>

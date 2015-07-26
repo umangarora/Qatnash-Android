@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Project Qatnash (IIITD)</string>
+    <string name="action_settings">Settings</string>
+    
+
+    <string name="hello_world">Hello world!</string>
+    <string name="Course_Name">Course name</string>
+    <string name="Date">Date</string>
+     <string name="mark"> Mark Your Attendance</string>
+   
+    <string-array name="courses">
+        <item>Course</item>
+        <item>IP</item>
+        <item>OS</item>
+        <item>ADA</item>
+        <item>EVS</item>
+        <item>CN</item>
+        <item>MC</item>
+
+    </string-array>
+
+    <string-array name="dates">
+        <item>Date</item>
+        <item>June, 24th 2015</item>
+        <item>June, 25th 2015</item>
+
+    </string-array>
+
+    <string-array name="alpha">
+        <item>Row</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+
+    </string-array>
+
+    <string-array name="numbers">
+        <item>Seat #</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+    
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+
+</resources>
